@@ -10,6 +10,13 @@ Table of Contents:
 
 */
 
+@media only screen and (max-width: 1016px) {
+  .h1Main{
+    height: 50%;
+  }
+}
+
+
 /* 1. CSS Grid configuration */
 * {box-sizing: border-box;}
 .wrapper {
@@ -54,9 +61,23 @@ Table of Contents:
   width: 50vw;
   background-color: #212121;
 }
+.myWorkCol3 {
+  grid-column: 1;
+  grid-row: 6;
+  width: 50vw;
+  color: white;
+  background-color: #212121;
+}
+.myWorkCol4 {
+  grid-column: 2;
+  grid-row: 6;
+  width: 50vw;
+  color: white;
+  background-color: #212121;
+}
 .resumeHead{
   grid-column: 1 / 4;
-  grid-row: 6;
+  grid-row: 7;
   background-color: #212121;
 }
 button{
@@ -71,6 +92,9 @@ button{
   margin: 0 auto;
   font-size: 30px;
   font-family: 'Indie Flower', cursive;
+}
+button:hover{
+  background-color: lightblue;
 }
 .footer {
   grid-column: 1 / 4;
@@ -140,6 +164,9 @@ html,body{
   text-decoration: none;
   color: #212121;
 }
+.footer a:hover{
+  color: teal;
+}
 
 .footer ul{
   text-align: center;
@@ -161,24 +188,52 @@ html,body{
 .myWorkCol1 h1{
   color: white;
 }
-.myWorkCol2 h1{
-  color: white;
-}
 
 .myWorkCol1 a{
   text-decoration: none;
   color: white;
 }
+.myWorkCol1 a:hover{
+  color: teal;
+}
 .myWorkCol1 li{
   color: white;
 }
+
 .myWorkCol2 a{
   text-decoration: none;
   color: white;
 }
+.myWorkCol2 a:hover{
+  color: teal;
+}
 .myWorkCol2 li{
   color: white;
 }
+
+.myWorkCol3 a{
+  text-decoration: none;
+  color: white;
+}
+.myWorkCol3 a:hover{
+  color: teal;
+}
+.myWorkCol3 li{
+  color: white;
+}
+
+.myWorkCol4 a{
+  text-decoration: none;
+  color: white;
+}
+.myWorkCol4 a:hover{
+  color: teal;
+}
+.myWorkCol4 li{
+  color: white;
+}
+
+
 
 img {
   border-radius: 50%;
